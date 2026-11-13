@@ -1,0 +1,13 @@
+[project]
+name = "diabetes-readmission-prediction"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.162.6",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "ucimlrepo>=0.0.7",
+    "uvicorn>=0.54.0",
+    "xgboost>=3.4.1",
+]
